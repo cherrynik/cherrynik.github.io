@@ -1,0 +1,1 @@
+export { KarmaticArcadeFont } from './KarmaticArcade';
