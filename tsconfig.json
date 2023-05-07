@@ -20,7 +20,7 @@
     "strict": true,
     "typeRoots": ["src/types", "node_modules/@types"],
     "paths": {
-      "@assets/*": ["src/assets/*"]
+      "@/*": ["src/*"]
     }
   },
   "files": [],

@@ -1,9 +1,18 @@
 import { createGlobalStyle } from 'styled-components';
-import { KarmaticArcadeFont } from '../fonts';
+import { WondersoftCursor } from '../cursors';
+import { ArcadepixPlusFont, KarmaticArcadeFont } from '../fonts';
 import { DefaultFontFamily, DefaultFontSize } from '../variables';
 
 export const GlobalStyle = createGlobalStyle`
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+
+  ${ArcadepixPlusFont}
+
   ${KarmaticArcadeFont}
+
+  ${WondersoftCursor}
 
   body {
     margin: 0;
