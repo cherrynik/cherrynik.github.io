@@ -46,8 +46,8 @@ const StyledTitle = styled.h1`
   font-family: ${KarmaticArcadeFontFamily};
   font-weight: 100;
   background: linear-gradient(280deg, ${avgStepsGradient(colors)});
-  // background-size: 100%;
-  // background-clip: text;
+  background-size: 100%;
+  background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
   -webkit-text-fill-color: transparent;
@@ -66,16 +66,21 @@ const StyledTitle = styled.h1`
 `;
 
 const StyledFirstName = styled.span`
-  // rose gold
+  @media (max-width: 500px) {
+    display: block;
+    font-size: 7rem;
   background: linear-gradient(
     280deg,
-    #ff2f2f 0%,
-    #ff2f2f 50%,
-    #a988e1 50%,
-    #a988e1 100%
+    #ff00ff 0%,
+    #ffff00 16.66%,
+    #ff00ff 33.33%,
+    #ffff00 50%,
+    #ff00ff 66.66%,
+    #ffff00 83.33%,
+    #ff00ff 100%
   );
   animation-name: glow;
-  animation-duration: 2s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
   background-size: 200%;
@@ -84,23 +89,22 @@ const StyledFirstName = styled.span`
   color: transparent;
   -webkit-text-fill-color: transparent;
   text-fill-color: transparent;
-  transition: all 0.2s ease-in-out;
+  transition: all 0.5s ease-in-out;
 
   @keyframes glow {
     0% {
+      linear-gradient(0deg, ${avgStepsGradient(colors)});
       background-position: 0%;
     }
     50% {
-      background-position: 100%;
+      background-position: 150%;
     }
     100% {
+      linear-gradient(0deg, ${avgStepsGradient(colors)});
       background-position: 0%;
     }
   }
 
-  @media (max-width: 500px) {
-    display: block;
-    font-size: 7rem;
   }
 `;
 
@@ -326,10 +330,10 @@ export const Lead = () => {
       return;
     }
 
-    /* title.style.background = `linear-gradient(${getGradientDegree()}deg, ${avgStepsGradient(
+    title.style.background = `linear-gradient(${getGradientDegree()}deg, ${avgStepsGradient(
       colors
     )})`;
-    title.style.webkitBackgroundClip = 'text'; */
+    title.style.webkitBackgroundClip = 'text';
   }, [mousePos]);
 
   return (
