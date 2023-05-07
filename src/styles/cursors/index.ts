@@ -1,1 +1,0 @@
-export { WondersoftCursor } from './Wondersoft';
