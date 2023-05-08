@@ -25,6 +25,4 @@ jobs:
         npm ci
         
     - name: Build
-      uses: mansagroup/nrwl-nx-action@v3
-      with:
-        targets: build
+      run: yarn build
