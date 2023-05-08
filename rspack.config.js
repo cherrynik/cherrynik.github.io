@@ -24,9 +24,7 @@ module.exports = composePlugins(withNx({}), withWeb(), (config) => {
       ],
     },
     resolve: {
-      alias: {
-        '@': path.resolve(__dirname, './src'),
-      },
+      tsConfigPath: path.resolve(__dirname, 'tsconfig.app.json'),
     },
     optimization: {
       sideEffects: false,
