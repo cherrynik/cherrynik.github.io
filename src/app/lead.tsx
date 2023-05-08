@@ -1,14 +1,14 @@
-import EmailIcon from '@/assets/icons/PixelArt/Basic/Purple/Email_Purple.png';
-import GithubIcon from '@/assets/icons/PixelArt/Basic/White/Letter G_White.png';
-import DiscordIcon from '@/assets/icons/PixelArt/Discord.png';
-import GoogleDriveIcon from '@/assets/icons/PixelArt/Drive (Google).png';
-import LinkedinIcon from '@/assets/icons/PixelArt/Linkedin.png';
-import SteamIcon from '@/assets/icons/PixelArt/Steam.png';
-import TelegramIcon from '@/assets/icons/PixelArt/Telegram.png';
-import { ArcadepixPlusFontFamily } from '@/styles/fonts/ArcadepixPlus';
-import { KarmaticArcadeFontFamily } from '@/styles/fonts/KarmaticArcade';
 import { useEffect, useRef, useState } from 'react';
 import styled from 'styled-components';
+import EmailIcon from '../assets/icons/PixelArt/Basic/Purple/Email_Purple.png';
+import GithubIcon from '../assets/icons/PixelArt/Basic/White/Letter G_White.png';
+import DiscordIcon from '../assets/icons/PixelArt/Discord.png';
+import GoogleDriveIcon from '../assets/icons/PixelArt/Drive (Google).png';
+import LinkedinIcon from '../assets/icons/PixelArt/Linkedin.png';
+import SteamIcon from '../assets/icons/PixelArt/Steam.png';
+import TelegramIcon from '../assets/icons/PixelArt/Telegram.png';
+import { ArcadepixPlusFontFamily } from '../styles/fonts/ArcadepixPlus';
+import { KarmaticArcadeFontFamily } from '../styles/fonts/KarmaticArcade';
 
 const colors = ['#ff2f2f', '#a988e1', '#07a6ff'];
 

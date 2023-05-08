@@ -1,4 +1,4 @@
-import pointerCursor from '@/assets/cursors/Wondersoft/hand.png';
+import pointerCursor from '../../../assets/cursors/Wondersoft/hand.png';
 
 export const WondersoftCursor = `
   * {

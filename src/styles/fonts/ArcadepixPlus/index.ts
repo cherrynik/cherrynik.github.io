@@ -1,9 +1,9 @@
-import ArcadepixPlusEot from '@/assets/fonts/ArcadepixPlus/ArcadepixPlus.eot';
-import ArcadepixPlusOtf from '@/assets/fonts/ArcadepixPlus/ArcadepixPlus.otf';
-import ArcadepixPlusSvg from '@/assets/fonts/ArcadepixPlus/ArcadepixPlus.svg';
-import ArcadepixPlusTtf from '@/assets/fonts/ArcadepixPlus/ArcadepixPlus.ttf';
-import ArcadepixPlusWoff from '@/assets/fonts/ArcadepixPlus/ArcadepixPlus.woff';
-import ArcadepixPlusWoff2 from '@/assets/fonts/ArcadepixPlus/ArcadepixPlus.woff2';
+import ArcadepixPlusEot from '../../../assets/fonts/ArcadepixPlus/ArcadepixPlus.eot';
+import ArcadepixPlusOtf from '../../../assets/fonts/ArcadepixPlus/ArcadepixPlus.otf';
+import ArcadepixPlusSvg from '../../../assets/fonts/ArcadepixPlus/ArcadepixPlus.svg';
+import ArcadepixPlusTtf from '../../../assets/fonts/ArcadepixPlus/ArcadepixPlus.ttf';
+import ArcadepixPlusWoff from '../../../assets/fonts/ArcadepixPlus/ArcadepixPlus.woff';
+import ArcadepixPlusWoff2 from '../../../assets/fonts/ArcadepixPlus/ArcadepixPlus.woff2';
 
 export const ArcadepixPlusFontFamily = 'Arcadepix Plus';
 
